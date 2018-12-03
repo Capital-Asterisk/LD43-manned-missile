@@ -9,7 +9,7 @@ void Start()
 
     // enable cursor
     input.mouseVisible = true;
-    graphics.windowTitle = "Blank Vendalenger template";
+    graphics.windowTitle = "Manned Missile Master";
 
     // Set default UI style
     XMLFile@ style = cache.GetResource("XMLFile", "UI/DefaultStyle.xml");
@@ -24,8 +24,9 @@ void Start()
     // make some randomness random
     SetRandomSeed(time.systemTime);
 
-    //ChangeScene(@S_VIntro::Salamander);
-    ChangeScene(@S_Game::Salamander);
+    ChangeScene(@S_VIntro::Salamander);
+    SetGlobalVar("InvertPitch", false);
+    //ChangeScene(@S_Game::Salamander);
 
 }
 

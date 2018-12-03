@@ -79,7 +79,7 @@ void Salamander(int stats)
         GameCommon(stats);
         
         nextLevel = @SalamanderB;
-        Breif("Level 1 - Operation Unskilled Pilot", "Welcome to Manual Missile. An enemy supply craft has been located hiding beneath a strategically shaped canyon. Their makowsky jamming equipment makes them impossible to hit with any remote weapon.\n\nThis is where you come in. Fly through the canyon and ram the target at the other end.\n\nThey don't think our pilots are skilled enough to fly through this inconvenience, since AAGSS-69 Manoman pilots like you have no real combat experience in that vehicle. They'll be waiting for you to pop out, so STAY LOW!");
+        Breif("Level 1 - Operation Unskilled Pilot", "Welcome to Manned Missile Master. An enemy supply craft has been located hiding beneath a strategically shaped canyon. Their makowsky jamming equipment makes them impossible to hit with any remote weapon.\n\nThis is where you come in. Fly through the canyon and ram the target at the other end.\n\nThey don't think our pilots are skilled enough to fly through this inconvenience, since AAGSS-69 Manoman pilots like you have no real combat experience in that vehicle. They'll be waiting for you to pop out, so STAY LOW!");
     } else {
         GameCommon(stats);
     }
@@ -151,7 +151,7 @@ void SalamanderD(int stats)
         GameCommon(stats);
         
         nextLevel = @SalamanderE;
-        Breif("Level 4 - Solid Moisture", "An armed enemy ship is headed towards our capital. Intercept them.\n\nThey are expected to open fire against anything within their 270 kilofeet range. Try not to hit the projectiles.\n\nIt is advised that hitting sharply from below is the most effective way to get a direct hit.");
+        Breif("Level 4 - Solid Moisture", "An armed enemy ship is headed towards our capital. Intercept them.\n\nThey are expected to open fire against anything within their 270 kilofeet range. Try not to hit the projectiles.\n\nIt is advised that hitting sharply from below, or aiming for the nose, is the most effective way to get a direct hit.");
     } else {
         GameCommon(stats);
     }
@@ -175,7 +175,7 @@ void SalamanderE(int stats)
         GameCommon(stats);
         
         nextLevel = null;
-        Breif("Level 5 - Operation Operation", "Intelligence from previous missions flown by brave pilots had allowed us to locate the enemy base. ");
+        Breif("Level 5 - Operation Operation", "Intelligence from previous missions flown by brave pilots had allowed us to locate the enemy base. Their interior isn't quite designed for flying vehicles, but the maps shows that its possible to destroy their generator using an AAGSS-69 Manoman. \n\nTake extreme caution, as there will be turrets.");
     } else {
         GameCommon(stats);
     }
