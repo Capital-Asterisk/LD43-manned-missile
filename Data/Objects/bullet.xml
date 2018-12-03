@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<node id="31">
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="bullet" />
+	<attribute name="Tags" />
+	<attribute name="Position" value="-147.747 14.2892 -0.25214" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="0.3 0.3 0.3" />
+	<attribute name="Variables" />
+	<component type="StaticModel" id="63">
+		<attribute name="Model" value="Model;Models/bullet.mdl" />
+		<attribute name="Material" value="Material;Materials/lazor.xml" />
+	</component>
+	<component type="RigidBody" id="64">
+		<attribute name="Physics Rotation" value="1 0 0 0" />
+		<attribute name="Physics Position" value="-147.747 14.2892 -0.25214" />
+		<attribute name="Mass" value="1" />
+		<attribute name="Collision Layer" value="2" />
+	</component>
+	<component type="CollisionShape" id="65">
+		<attribute name="Size" value="6 0.8 0.8" />
+		<attribute name="Offset Position" value="-1 0 0" />
+		<attribute name="Model" value="Model;Models/ezsphere.mdl" />
+	</component>
+	<component type="ScriptInstance" id="71">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Script File" value="ScriptFile;Scripts/Bullet.as" />
+		<attribute name="Class Name" value="Bullet" />
+		<attribute name="lifetime" value="6" />
+		<attribute name="timestart" value="0" />
+	</component>
+</node>
